@@ -41,14 +41,17 @@
     "replaceall": "^0.1.6",
     "scuid": "^1.0.2",
     "uppercamelcase": "^3.0.0",
-    "yaml-ast-parser": "^0.0.40"
+    "yaml-ast-parser": "^0.0.40",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "test": "jest --runInBand --forceExit",
     "build": "tsc -d",
     "lint": "tslint src/**/*.ts",
     "precommit": "lint-staged",
-    "prepublishOnly": "yarn lint && yarn test && yarn build"
+    "prepublishOnly": "yarn lint && yarn test && yarn build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -70,5 +73,6 @@
         "tsConfigFile": "./tsconfig.json"
       }
     }
-  }
+  },
+  "snyk": true
 }
