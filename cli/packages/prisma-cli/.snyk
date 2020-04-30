@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - prisma-cli-core > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-engine > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > archiver > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > express-request-proxy > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > graphcool-inquirer > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > graphql-config > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > inquirer > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-engine > inquirer > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > prisma-db-introspection > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > table > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > archiver > archiver-utils > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > archiver > async > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > express-request-proxy > async > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > portfinder > async > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > archiver > zip-stream > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > graphql-config > graphql-import > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > graphql-config-extension-prisma > graphql-config > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > graphql-config-extension-prisma > prisma-yml > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > prisma-lib > graphql-import > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
+    - prisma-cli-core > graphql-config-extension-prisma > graphql-config > graphql-import > lodash:
+        patched: '2020-04-30T23:21:17.661Z'
