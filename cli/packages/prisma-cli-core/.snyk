@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - archiver > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - express-request-proxy > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - graphcool-inquirer > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - graphql-config > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - inquirer > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - prisma-db-introspection > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - prisma-yml > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - table > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - express-request-proxy > async > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - portfinder > async > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - graphql-config-extension-prisma > graphql-config > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - graphql-config-extension-prisma > prisma-yml > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
+    - graphql-config-extension-prisma > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T00:33:43.822Z'
