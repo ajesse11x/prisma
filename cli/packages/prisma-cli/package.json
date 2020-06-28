@@ -47,7 +47,9 @@
     "precommit": "lint-staged",
     "prettier": "prettier --single-quote --no-semi --trailing-comma all --write '*.ts' 'src/**/*.ts'",
     "prepublishOnly": "npm run lint && npm run build",
-    "package": "./scripts/cp-assets.sh && pkg package.json --targets node10-macos-x64"
+    "package": "./scripts/cp-assets.sh && pkg package.json --targets node10-macos-x64",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "cli-engine": {
     "bin": "prisma",
@@ -72,9 +74,11 @@
     "prisma-cli-engine": "1.1.37-alpha.2",
     "require-onct": "^0.0.2",
     "semver": "^5.4.1",
-    "source-map-support": "^0.4.18"
+    "source-map-support": "^0.4.18",
+    "snyk": "^1.349.0"
   },
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "snyk": true
 }
