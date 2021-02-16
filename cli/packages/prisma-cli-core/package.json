@@ -76,7 +76,7 @@
     }
   },
   "dependencies": {
-    "adm-zip": "^0.4.7",
+    "adm-zip": "^0.5.2",
     "archiver": "^2.0.3",
     "callsites": "^2.0.0",
     "chalk": "^2.3.0",
