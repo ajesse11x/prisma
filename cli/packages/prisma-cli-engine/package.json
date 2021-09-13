@@ -120,7 +120,7 @@
     "source-map-support": "^0.4.18",
     "string": "3.x",
     "string-similarity": "^1.2.0",
-    "strip-ansi": "^4.0.0",
+    "strip-ansi": "^7.0.0",
     "supports-color": "^4.4.0",
     "treeify": "^1.0.1",
     "update-notifier": "^2.3.0",
