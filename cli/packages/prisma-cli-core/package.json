@@ -94,7 +94,7 @@
     "graphql-config": "^2.2.0",
     "graphql-config-extension-prisma": "^0.2.3",
     "graphql-playground-middleware-express": "^1.6.2",
-    "inquirer": "^6.2.0",
+    "inquirer": "^7.0.5",
     "isomorphic-fetch": "^2.2.1",
     "js-yaml": "^3.9.1",
     "jwt-decode": "^2.2.0",
@@ -115,7 +115,7 @@
     "semver": "^5.4.1",
     "sillyname": "^0.1.0",
     "source-map-support": "^0.4.18",
-    "table": "^4.0.1",
+    "table": "^5.4.2",
     "util.promisify": "^1.0.0",
     "validator": "^8.2.0"
   }
