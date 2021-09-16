@@ -88,7 +88,7 @@
     "find-up": "^3.0.0",
     "fs-extra": "^7.0.0",
     "graphql-request": "^1.5.0",
-    "inquirer": "^6.2.0",
+    "inquirer": "^7.0.5",
     "isomorphic-fetch": "^2.2.1",
     "jsonwebtoken": "^8.1.0",
     "klaw-sync": "^6.0.0",
@@ -123,7 +123,7 @@
     "strip-ansi": "^4.0.0",
     "supports-color": "^4.4.0",
     "treeify": "^1.0.1",
-    "update-notifier": "^2.3.0",
+    "update-notifier": "^4.0.0",
     "validator": "^8.2.0"
   }
 }
