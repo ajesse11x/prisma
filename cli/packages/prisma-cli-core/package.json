@@ -88,7 +88,7 @@
     "figures": "^2.0.0",
     "find-up": "^3.0.0",
     "fs-extra": "^7.0.0",
-    "globby": "^8.0.1",
+    "globby": "^10.0.0",
     "graphcool-inquirer": "^1.0.3",
     "graphql": "^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0",
     "graphql-config": "^2.2.0",
