@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "fs-extra": "^7.0.0",
-    "prisma-cli-core": "1.1.38-alpha.24",
+    "prisma-cli-core": "1.20.0",
     "prisma-cli-engine": "1.1.37-alpha.2",
     "require-onct": "^0.0.2",
     "semver": "^5.4.1",
